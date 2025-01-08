@@ -1,5 +1,6 @@
 # ski
-Lambda to SKI translator and SKI evaluator
+Lambda to SKI translator and SKI evaluator.
+It translates lambda expressions into SKI combinator expresssions and evaluates them.
 
 ## How to use
 * To use, import all elements from `ski.py` in the Python interpreter as shown below:
