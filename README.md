@@ -34,7 +34,7 @@ one = Lam(['f', 'x'], App('f', 'x'))
   Returns the set of free variables in the given term.
 
 * `translate(term)`  
-  Translates an arbitrary lambda expression into an expression composed of S, K, and I combinators.
+  Translates the given lambda expression `term` into an expression composed of S, K, and I combinators.
 
 * `print_lam_expr(expr)`  
   Prints the lambda expression constructed in internal representation in a human-readable format.
