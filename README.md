@@ -16,8 +16,9 @@ python3 ski.py
 ## Abstract grammar for lambda expression
 * **Lambda expression**: Lam(variable list, lambda term)
 * **Application**: App(lambda terms)
-* Represent a variable in a string
-* Examples
+* **Variable**: a string
+
+### Examples
 ```
 add = Lam(['m', 'n', 'f', 'x'], App('m', 'f', App('n', 'f', 'x')))
 one = Lam(['f', 'x'], App('f', 'x'))
