@@ -14,8 +14,8 @@ python3 ski.py
 ```
 
 ## Abstract grammar for lambda expression
-* Lambda expression : Lam(variable list, lambda term)
-* Application : App(lambda terms)
+* **Lambda expression**: Lam(variable list, lambda term)
+* **Application**: App(lambda terms)
 * Represent a variable in a string
 * Examples
 ```
